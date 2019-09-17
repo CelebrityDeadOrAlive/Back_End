@@ -18,14 +18,16 @@ router.post('/register', (req, res) => {
       res.status(500).json(error);
     });
 });
+
 //Testing
-router.get('/', (req, res) => {
+/* router.get('/', (req, res) => {
   Users.find()
     .then(users => {
       res.json(users);
     })
     .catch(err => res.send(err));
 });
+ */
 
 router.post('/login', (req, res) => {
   let { username, password } = req.body;
