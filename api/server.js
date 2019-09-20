@@ -6,6 +6,7 @@ const secrets = require('../config/secret');
 
 const authRouter = require('../auth/auth-router.js');
 const usersRouter = require('../users/users-router.js');
+const celebsRouter = require('../celebs/celebs-router.js');
 
 const server = express();
 
@@ -15,6 +16,7 @@ server.use(cors());
 
 server.use('/api/auth', authRouter);
 server.use('/api/users', usersRouter);
+server.use('/api/celebs', celebsRouter);
 
 server.get('/', (req, res) => {
   res.send('We are 🔥');

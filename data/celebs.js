@@ -1,0 +1,22 @@
+module.exports = [
+  { celebs_name: 'Zac Efron', is_alive: '1' },
+  { celebs_name: 'Beyonce', is_alive: '1' },
+  { celebs_name: 'Taylor Swift', is_alive: '1' },
+  { celebs_name: 'Michael Jackson', is_alive: '0' },
+  { celebs_name: 'Brad Pitt', is_alive: '1' },
+  { celebs_name: 'Bobby Brown', is_alive: '1' },
+  { celebs_name: 'Whitney Houston', is_alive: '0' },
+  { celebs_name: 'Kim Kardashian', is_alive: '1' },
+  { celebs_name: 'Cristiano Ronaldo', is_alive: '1' },
+  { celebs_name: 'Donald Trump', is_alive: '1' },
+  { celebs_name: 'Lil Wayne', is_alive: '1' },
+  { celebs_name: 'Scarlett Johansson', is_alive: '1' },
+  { celebs_name: 'Chris Evans', is_alive: '1' },
+  { celebs_name: 'Bradley Cooper', is_alive: '1' },
+  { celebs_name: 'Robert Downey, Jr', is_alive: '1' },
+  { celebs_name: 'Doris Day', is_alive: '0' },
+  { celebs_name: 'Cameron Boyce', is_alive: '0' },
+  { celebs_name: 'Mac Miller', is_alive: '0' },
+  { celebs_name: 'Kate Spade', is_alive: '0' },
+  { celebs_name: 'Christopher “Big Black” Boykin', is_alive: '0' }
+];

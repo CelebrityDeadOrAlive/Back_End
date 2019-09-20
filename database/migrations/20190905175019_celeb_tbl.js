@@ -8,16 +8,12 @@ exports.up = function(knex) {
       users.string('email', 256).unique();
     })
     .createTable('celebs', celebs => {
-      celebs.increments();
-      celebs.string('celebs_name', 128);
-      celebs
-        .integer('celebs_age')
-        .unsigned()
-        .notNullable();
-      celebs.integer('time_limit');
+      celebs.increments('id').primary();
+      celebs.string('celebs_name', 128).notNullable();
+      celebs.boolean('is_alive');
     });
 };
-//somthing
+
 exports.down = function(knex, Promise) {
   return knex.schema.dropTableIfExists('users').dropTableIfExists('celebs');
 };
